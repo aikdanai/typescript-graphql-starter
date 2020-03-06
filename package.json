@@ -1,0 +1,30 @@
+{
+  "name": "typescript-graphql-starter",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:blutarche/typescript-graphql-starter.git",
+  "author": "Aikdanai Sidhikosol <aikdanai.s@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn --transpileOnly -r dotenv/config ./src/index"
+  },
+  "dependencies": {
+    "apollo-server": "2.10.1",
+    "graphql": "14.6.0",
+    "graphql-iso-date": "3.6.1",
+    "graphql-type-json": "0.3.1",
+    "lodash": "4.17.15",
+    "nexus": "0.12.0-rc.13"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.149",
+    "@types/node": "13.7.6",
+    "@typescript-eslint/eslint-plugin": "2.21.0",
+    "@typescript-eslint/parser": "2.21.0",
+    "dotenv": "8.2.0",
+    "eslint": "6.8.0",
+    "ts-node-dev": "1.0.0-pre.44",
+    "typescript": "3.8.2"
+  }
+}

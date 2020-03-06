@@ -1,0 +1,6 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "no-func-assign": false,
+  "proseWrap": "always"
+}
