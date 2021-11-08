@@ -10,7 +10,7 @@
     "dev": "ts-node-dev --no-notify --respawn --transpileOnly -r dotenv/config ./src/index"
   },
   "dependencies": {
-    "apollo-server": "2.10.1",
+    "apollo-server": "2.25.3",
     "graphql": "14.6.0",
     "graphql-iso-date": "3.6.1",
     "graphql-type-json": "0.3.1",
